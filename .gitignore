@@ -1,6 +1,7 @@
 *
 
 !.gitignore
+!.clang-format
 !*.txt
 !*.md
 !*.cpp
