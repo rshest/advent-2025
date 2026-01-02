@@ -98,7 +98,7 @@ num_t part2(const Range &range) {
 }
 
 int main() {
-  auto lines = read_input("input.txt");
+  auto lines = read_input("test.txt");
   auto parts = split_by(lines[0], ",");
   std::vector<Range> ranges(parts.size());
   std::transform(parts.begin(), parts.end(), ranges.begin(), parse_range);
